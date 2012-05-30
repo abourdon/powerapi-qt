@@ -1,0 +1,11 @@
+# --------------------------------------------------------------------
+# ESF bundle test suites
+# --------------------------------------------------------------------
+
+# Initial configurations
+init_tests()
+
+# Test cases
+custom_add_test(${PROJECT_CPP_TEST_SOURCE_DIR}/db ESFDataBaseTest)
+custom_add_test(${PROJECT_CPP_TEST_SOURCE_DIR}/bundle ServiceStateTest)
+#custom_add_test(${PROJECT_CPP_TEST_SOURCE_DIR}/collection CollectionUtilTest)

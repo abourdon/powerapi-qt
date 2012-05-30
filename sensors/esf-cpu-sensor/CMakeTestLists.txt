@@ -1,0 +1,12 @@
+# --------------------------------------------------------------------
+# ESF bundle test suites
+# --------------------------------------------------------------------
+
+# Initial configurations
+init_tests()
+
+# Test cases
+custom_add_test(${PROJECT_CPP_TEST_SOURCE_DIR}/business CPUSpecificationsTest)
+custom_add_test(${PROJECT_CPP_TEST_SOURCE_DIR}/business CPUFrequencyTest)
+custom_add_test(${PROJECT_CPP_TEST_SOURCE_DIR}/business CPUTransitionTest)
+custom_add_test(${PROJECT_CPP_TEST_SOURCE_DIR}/business CPUTime2Test)

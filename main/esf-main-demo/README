@@ -1,0 +1,31 @@
+What you should do in order to build this project:
+  1. Make sure you have cmake installed
+  2. Go to the project root
+  3. Make sure that all libraries dependencies are correctly satisfied in the "cmake/BuildSetup.cmake" file
+     Note that project requires:
+        - Qt        (v4)
+        - SOF       (v1.2_11050)
+        - PROCPS    (v3.2.8)
+        - [Log4cxx  (v0.10)]
+  3. Create a "build" directory and enter to it
+  4. Type the command lines:
+    $ cmake -C ../cmake/BuildSetup.cmake ..
+    $ make test
+    $ make install
+  5. So you can enter to the "target" directory and launch the executable
+
+What you should do in order to develop on this project (example with the Eclipse CDT IDE):
+  1. Make sure you have cmake installed
+  2. Go to the project root
+  3. Make sure that all libraries dependencies are correctly satisfied in the "cmake/BuildSetup.cmake" file
+     Note that project requires:
+        - Qt        (v4)
+        - SOF       (v1.2_11050)
+        - PROCPS    (v3.2.8)
+        - [Log4cxx  (v0.10)]
+  4. Prefer the out-of-source build and go to the parent directory (so now you are above the ESF-src directory)
+  5. Create the ESF-build directory an enter to it
+  6. Type the command line:
+    $ cmake -G"Eclipse CDT4 - Unix Makefiles" -C../ESF-src/cmake/BuildSetup.cmake ../ESF-src
+  7. Open your Eclipse CDT IDE and import the ESF-build project. Note that you have the ESF-src sources linked to it
+

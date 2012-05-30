@@ -1,0 +1,5 @@
+esf-cpu-sensor,CPUSensorActivator,/home/abourdon/dev/esf/esf-lib/sensors/esf-cpu-sensor-build,libesf-cpu-sensor.so
+esf-cpu-formula,CPUFormulaActivator,/home/abourdon/dev/esf/esf-lib/formulas/esf-cpu-formula-build,libesf-cpu-formula.so
+esf-network-sensor,NetworkSensorActivator,/home/abourdon/dev/esf/esf-lib/sensors/esf-network-sensor-build,libesf-network-sensor.so
+esf-network-formula,NetworkFormulaActivator,/home/abourdon/dev/esf/esf-lib/formulas/esf-network-formula-build,libesf-network-formula.so
+esf-main,ESFMainActivator,/home/abourdon/dev/esf/esf-lib/main/esf-main-build,libesf-main.so

@@ -1,0 +1,16 @@
+#ifndef TESTUTIL_H_
+#define TESTUTIL_H_
+#include <QtCore>
+
+#define PROJECT_TESTING_BINARY_DIR "@PROJECT_TESTING_BINARY_DIR@"
+
+class TestUtil {
+public:
+	static const QString getAbsoluteTestingPath();
+};
+
+inline const QString TestUtil::getAbsoluteTestingPath() {
+	return PROJECT_TESTING_BINARY_DIR;
+}
+
+#endif /* TESTUTIL_H_ */
